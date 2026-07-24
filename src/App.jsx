@@ -157,7 +157,7 @@ export default function App() {
                 </p>
               </div>
 
-              <div className="relative min-h-[55rem] lg:min-h-[62rem]">
+              <div className="relative min-h-[48rem] lg:min-h-[56rem]">
                 <div className="hidden lg:block">
                   <div className="absolute left-0 top-24 w-[18rem] rounded-2xl bg-white p-6 shadow-[0_16px_32px_rgba(23,58,48,0.08)]">
                     <p className="text-sm font-bold text-[#2E6A56]">01</p>
@@ -212,22 +212,22 @@ export default function App() {
                       </div>
                     </div>
                   ))}
-                  <div className="rounded-[2rem] bg-[#184E3F] p-8 text-center text-white">
-                    <p className="text-sm text-[#D8F35A]">부산 전체</p>
-                    <p className="mt-3 text-3xl font-black">단골 통장</p>
-                    <p className="mt-4 text-sm text-white/70">가게가 바뀌어도 관계는 한곳에</p>
-                  </div>
-                </div>
-
-                <div className="mt-10 hidden grid-cols-4 border border-[#E7DDC8] bg-white/35 lg:grid">
-                  {whyItems.map((item) => (
-                    <div key={item.id} className="min-h-28 border-r border-[#E7DDC8] p-8 last:border-r-0">
-                      <div className="text-sm font-bold text-[#2E6A56]">{item.title}</div>
-                      <p className="mt-6 max-w-[14rem] text-lg font-semibold leading-[1.35] text-[#173A30]">{item.description}</p>
+                    <div className="rounded-[2rem] bg-[#184E3F] p-8 text-center text-white">
+                      <p className="text-sm text-[#D8F35A]">부산 전체</p>
+                      <p className="mt-3 text-3xl font-black">단골 통장</p>
+                      <p className="mt-4 text-sm text-white/70">가게가 바뀌어도 관계는 한곳에</p>
                     </div>
-                  ))}
-                </div>
+                  </div>
               </div>
+            </div>
+
+            <div className="mt-14 hidden grid-cols-4 border border-[#E7DDC8] bg-white/35 lg:grid">
+              {whyItems.map((item) => (
+                <div key={item.id} className="min-h-28 border-r border-[#E7DDC8] p-8 last:border-r-0">
+                  <div className="text-sm font-bold text-[#2E6A56]">{item.title}</div>
+                  <p className="mt-6 max-w-[14rem] text-lg font-semibold leading-[1.35] text-[#173A30]">{item.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>
