@@ -141,93 +141,91 @@ export default function App() {
 
         <section id="solution" className="bg-[#F6F2E8] px-4 py-20 sm:px-6 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-7xl">
-            <div className="grid gap-10 lg:grid-cols-12 lg:items-start">
-              <div className="lg:col-span-5">
+            <div className="grid gap-12 lg:grid-cols-[420px_1fr] lg:items-start">
+              <div className="pt-2 lg:pt-6">
                 <p className="text-sm font-extrabold tracking-[0.28em] text-[#2E6A56] uppercase">The Solution</p>
-                <h2 className="mt-5 max-w-xl text-5xl font-black leading-[0.92] tracking-[-0.05em] sm:text-6xl lg:text-[5.5rem]">
+                <h2 className="mt-6 max-w-[10rem] text-5xl font-black leading-[0.9] tracking-[-0.07em] sm:text-6xl lg:text-[5.4rem]">
                   한 번의 결제를
                   <br />
                   다음 방문으로
                   <br />
                   이어주는 구조
                 </h2>
-                <p className="mt-8 max-w-lg text-base leading-8 text-[#5F675E] sm:text-lg">
+                <p className="mt-10 max-w-md text-base leading-8 text-[#5F675E] sm:text-lg">
                   새 예산을 더 쓰는 대신, 이미 만들어진 결제 이력과 QR 수수료 절감 여력을
                   연결합니다.
                 </p>
               </div>
 
-              <div className="lg:col-span-7 lg:pt-8">
-                <div className="relative min-h-[46rem] rounded-[2rem] border border-[#E6DDC8] bg-transparent p-4 sm:p-8">
-                  <div className="hidden lg:block">
-                    <div className="absolute left-20 top-16 w-[20rem] rounded-2xl bg-white p-6 shadow-[0_12px_28px_rgba(23,58,48,0.08)]">
-                      <p className="text-sm font-bold text-[#2E6A56]">결제</p>
-                      <h3 className="mt-3 text-2xl font-bold">동백전으로 참여 가맹점 이용</h3>
-                      <p className="mt-4 text-sm text-[#6C756D]">가까운 가맹점 결제만으로 단골 신호가 쌓입니다.</p>
-                    </div>
+              <div className="relative min-h-[55rem] lg:min-h-[62rem]">
+                <div className="hidden lg:block">
+                  <div className="absolute left-0 top-24 w-[18rem] rounded-2xl bg-white p-6 shadow-[0_16px_32px_rgba(23,58,48,0.08)]">
+                    <p className="text-sm font-bold text-[#2E6A56]">01</p>
+                    <h3 className="mt-4 text-2xl font-bold tracking-[-0.03em]">결제</h3>
+                    <p className="mt-3 text-sm leading-7 text-[#6C756D]">동백전으로 참여 가맹점 이용</p>
+                  </div>
 
-                    <div className="absolute right-8 top-16 w-[20rem] rounded-2xl bg-white p-6 shadow-[0_12px_28px_rgba(23,58,48,0.08)]">
-                      <p className="text-sm font-bold text-[#2E6A56]">축적</p>
-                      <h3 className="mt-3 text-2xl font-bold">가게별 단골 진행도 갱신</h3>
-                      <p className="mt-4 text-sm text-[#6C756D]">개별 가게가 아닌 도시 단위 관계를 보여줍니다.</p>
-                    </div>
+                  <div className="absolute right-0 top-16 w-[19rem] rounded-2xl bg-white p-6 shadow-[0_16px_32px_rgba(23,58,48,0.08)]">
+                    <p className="text-sm font-bold text-[#2E6A56]">02</p>
+                    <h3 className="mt-4 text-2xl font-bold tracking-[-0.03em]">축적</h3>
+                    <p className="mt-3 text-sm leading-7 text-[#6C756D]">가게별 단골 진행도 갱신</p>
+                  </div>
 
-                    <div className="absolute bottom-24 left-8 w-[20rem] rounded-2xl bg-white p-6 shadow-[0_12px_28px_rgba(23,58,48,0.08)]">
-                      <p className="text-sm font-bold text-[#2E6A56]">재방문</p>
-                      <h3 className="mt-3 text-2xl font-bold">캐시백 이후에도 관계 유지</h3>
-                      <p className="mt-4 text-sm text-[#6C756D]">방문 · 재방문 · 다양한 업종 측정으로 연결됩니다.</p>
-                    </div>
+                  <div className="absolute bottom-20 left-4 w-[18rem] rounded-2xl bg-white p-6 shadow-[0_16px_32px_rgba(23,58,48,0.08)]">
+                    <p className="text-sm font-bold text-[#2E6A56]">04</p>
+                    <h3 className="mt-4 text-2xl font-bold tracking-[-0.03em]">재방문</h3>
+                    <p className="mt-3 text-sm leading-7 text-[#6C756D]">캐시백 이후에도 관계 유지</p>
+                  </div>
 
-                    <div className="absolute bottom-24 right-12 w-[20rem] rounded-2xl bg-white p-6 shadow-[0_12px_28px_rgba(23,58,48,0.08)]">
-                      <p className="text-sm font-bold text-[#2E6A56]">발견</p>
-                      <h3 className="mt-3 text-2xl font-bold">기회가 큰 다음 골목 추천</h3>
-                      <p className="mt-4 text-sm text-[#6C756D]">확인되지 않은 QR·혜택·한도 정보는 실제처럼 보이지 않습니다.</p>
-                    </div>
+                  <div className="absolute bottom-8 right-4 w-[18rem] rounded-2xl bg-white p-6 shadow-[0_16px_32px_rgba(23,58,48,0.08)]">
+                    <p className="text-sm font-bold text-[#2E6A56]">03</p>
+                    <h3 className="mt-4 text-2xl font-bold tracking-[-0.03em]">발견</h3>
+                    <p className="mt-3 text-sm leading-7 text-[#6C756D]">기회가 큰 다음 골목 추천</p>
+                  </div>
 
-                    <div className="absolute left-1/2 top-1/2 flex h-[20rem] w-[20rem] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-dashed border-[#A8CFBF]">
-                      <div className="flex h-[15rem] w-[15rem] items-center justify-center rounded-full bg-[#184E3F] text-center text-white shadow-[0_0_0_16px_rgba(216,243,90,0.28)]">
+                  <div className="absolute left-1/2 top-1/2 flex h-[21rem] w-[21rem] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-dashed border-[#A8CFBF]">
+                    <div className="flex h-[16rem] w-[16rem] items-center justify-center rounded-full bg-[#184E3F] text-center text-white shadow-[0_0_0_18px_rgba(216,243,90,0.25)]">
+                      <div>
+                        <p className="text-sm text-[#D8F35A]">부산 전체</p>
+                        <p className="mt-3 text-3xl font-black tracking-[-0.04em]">단골 통장</p>
+                        <p className="mt-4 text-sm leading-6 text-white/68">
+                          가게가 바뀌어도
+                          <br />
+                          관계는 한곳에
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="grid gap-4 lg:hidden">
+                  {solutionCards.map((card) => (
+                    <div key={card.id} className="rounded-2xl bg-white p-5 shadow-[0_12px_28px_rgba(23,58,48,0.08)]">
+                      <div className="flex items-center gap-3">
+                        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#D8F35A] text-sm font-bold">
+                          {card.id}
+                        </span>
                         <div>
-                          <p className="text-sm text-[#D8F35A]">부산 전체</p>
-                          <p className="mt-3 text-3xl font-black">단골 통장</p>
-                          <p className="mt-4 text-sm leading-6 text-white/68">
-                            가게가 바뀌어도
-                            <br />
-                            관계는 한곳에
-                          </p>
+                          <p className="font-bold">{card.title}</p>
+                          <p className="text-sm text-[#6C756D]">{card.description}</p>
                         </div>
                       </div>
                     </div>
+                  ))}
+                  <div className="rounded-[2rem] bg-[#184E3F] p-8 text-center text-white">
+                    <p className="text-sm text-[#D8F35A]">부산 전체</p>
+                    <p className="mt-3 text-3xl font-black">단골 통장</p>
+                    <p className="mt-4 text-sm text-white/70">가게가 바뀌어도 관계는 한곳에</p>
                   </div>
+                </div>
 
-                  <div className="grid gap-4 lg:hidden">
-                    {solutionCards.map((card) => (
-                      <div key={card.id} className="rounded-2xl bg-white p-5 shadow-[0_12px_28px_rgba(23,58,48,0.08)]">
-                        <div className="flex items-center gap-3">
-                          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#D8F35A] text-sm font-bold">
-                            {card.id}
-                          </span>
-                          <div>
-                            <p className="font-bold">{card.title}</p>
-                            <p className="text-sm text-[#6C756D]">{card.description}</p>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                    <div className="rounded-[2rem] bg-[#184E3F] p-8 text-center text-white">
-                      <p className="text-sm text-[#D8F35A]">부산 전체</p>
-                      <p className="mt-3 text-3xl font-black">단골 통장</p>
-                      <p className="mt-4 text-sm text-white/70">가게가 바뀌어도 관계는 한곳에</p>
+                <div className="mt-10 hidden grid-cols-4 border border-[#E7DDC8] bg-white/35 lg:grid">
+                  {whyItems.map((item) => (
+                    <div key={item.id} className="min-h-28 border-r border-[#E7DDC8] p-8 last:border-r-0">
+                      <div className="text-sm font-bold text-[#2E6A56]">{item.title}</div>
+                      <p className="mt-6 max-w-[14rem] text-lg font-semibold text-[#173A30]">{item.description}</p>
                     </div>
-                  </div>
-
-                  <div className="mt-[38rem] hidden grid-cols-4 border border-[#E7DDC8] bg-white/40 lg:grid">
-                    {whyItems.map((item) => (
-                      <div key={item.id} className="min-h-28 border-r border-[#E7DDC8] p-8 last:border-r-0">
-                        <div className="text-sm font-bold text-[#2E6A56]">{item.title}</div>
-                        <p className="mt-6 max-w-[14rem] text-lg font-semibold text-[#173A30]">{item.description}</p>
-                      </div>
-                    ))}
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>
