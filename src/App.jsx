@@ -144,14 +144,14 @@ export default function App() {
             <div className="grid gap-12 lg:grid-cols-[420px_1fr] lg:items-start">
               <div className="pt-2 lg:pt-6">
                 <p className="text-sm font-extrabold tracking-[0.28em] text-[#2E6A56] uppercase">The Solution</p>
-                <h2 className="mt-6 max-w-[10rem] text-5xl font-black leading-[0.9] tracking-[-0.07em] sm:text-6xl lg:text-[5.4rem]">
+                <h2 className="mt-6 max-w-[18rem] break-keep text-5xl font-black leading-[0.9] tracking-[-0.07em] sm:text-6xl lg:max-w-[22rem] lg:text-[5.1rem]">
                   한 번의 결제를
                   <br />
                   다음 방문으로
                   <br />
                   이어주는 구조
                 </h2>
-                <p className="mt-10 max-w-md text-base leading-8 text-[#5F675E] sm:text-lg">
+                <p className="mt-10 max-w-[34rem] text-base leading-8 text-[#5F675E] sm:text-lg">
                   새 예산을 더 쓰는 대신, 이미 만들어진 결제 이력과 QR 수수료 절감 여력을
                   연결합니다.
                 </p>
@@ -183,11 +183,11 @@ export default function App() {
                     <p className="mt-3 text-sm leading-7 text-[#6C756D]">기회가 큰 다음 골목 추천</p>
                   </div>
 
-                  <div className="absolute left-1/2 top-1/2 flex h-[21rem] w-[21rem] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-dashed border-[#A8CFBF]">
+                  <div className="absolute left-1/2 top-[52%] flex h-[21rem] w-[21rem] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-dashed border-[#A8CFBF]">
                     <div className="flex h-[16rem] w-[16rem] items-center justify-center rounded-full bg-[#184E3F] text-center text-white shadow-[0_0_0_18px_rgba(216,243,90,0.25)]">
                       <div>
                         <p className="text-sm text-[#D8F35A]">부산 전체</p>
-                        <p className="mt-3 text-3xl font-black tracking-[-0.04em]">단골 통장</p>
+                        <p className="mt-3 text-3xl font-black tracking-[-0.04em] break-keep">단골 통장</p>
                         <p className="mt-4 text-sm leading-6 text-white/68">
                           가게가 바뀌어도
                           <br />
@@ -223,7 +223,7 @@ export default function App() {
                   {whyItems.map((item) => (
                     <div key={item.id} className="min-h-28 border-r border-[#E7DDC8] p-8 last:border-r-0">
                       <div className="text-sm font-bold text-[#2E6A56]">{item.title}</div>
-                      <p className="mt-6 max-w-[14rem] text-lg font-semibold text-[#173A30]">{item.description}</p>
+                      <p className="mt-6 max-w-[14rem] text-lg font-semibold leading-[1.35] text-[#173A30]">{item.description}</p>
                     </div>
                   ))}
                 </div>
